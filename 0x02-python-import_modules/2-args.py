@@ -17,4 +17,3 @@ if __name__ == "__main__":
         for args in range(1, (args_num + 1)):
             print("{}: {}" .format(count, sys.argv[args]))
             count += 1
-
