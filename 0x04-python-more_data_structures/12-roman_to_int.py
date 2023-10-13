@@ -2,7 +2,7 @@
 
 def roman_to_int(roman_string):
     """Converts a Roman numeral to an integer"""
-    if roman_string is None or not isinstance(roman_string, str):
+    if roman_string is None or type(roman_string) is not str:
         return 0
     total = 0  """ To store the total integer value"""
     prev_value = 1000  """ To handle subtractive notation"""
@@ -26,4 +26,4 @@ def roman_to_int(roman_string):
         prev_value = current_value
         total += current_value
 
-    return total
+    return (total)
