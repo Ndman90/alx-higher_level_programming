@@ -1,3 +1,8 @@
+#!/usr/bin/node
+/**
+ * Check the parameters provided
+ */
+
 class Rectangle {
   constructor (w, h) {
     // Check if w and h are positive integers
